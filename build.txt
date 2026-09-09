@@ -1,0 +1,4 @@
+displayName = Worst of Terraria
+displayName.zh-Hans = 更差的体验
+author = 末泠
+version = 0.1
