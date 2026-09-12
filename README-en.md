@@ -32,6 +32,5 @@ Most features can be configured inside **Mod Configs**. Please check them in‑g
 
 Feel free to use it. I doubt many people will end up using this anyway.
 
-References:
-- This mod open‑source repository: <https://github.com/bilimoing/WorstGame>
-- ImproveGame open‑source repository: <https://github.com/487666123/ImproveGame>
+References: This mod open‑source repository: <https://github.com/bilimoing/WorstGame>
+ImproveGame open‑source repository: <https://github.com/487666123/ImproveGame>

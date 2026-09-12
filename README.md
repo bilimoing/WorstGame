@@ -35,4 +35,4 @@
 
 附:\
 本模组开源链接: <https://github.com/bilimoing/WorstGame>\
-更好的体验开源链接<https://github.com/487666123/ImproveGame>\
+更好的体验开源链接<https://github.com/487666123/ImproveGame>
