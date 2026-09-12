@@ -155,6 +155,11 @@ Configs: {
 			Label: 太多怪物无法睡觉
 			Tooltip: 开启后，附近有太多怪物将无法睡觉
 		}
+
+		NoRegen: {
+			Tooltip: 开启后，关闭玩家原生生命再生，只能依靠药水、饰品回血
+			Label: 禁止生命自然回复
+		}
 	}
 
 	TileConfigs: {

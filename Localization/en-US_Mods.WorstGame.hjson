@@ -155,6 +155,15 @@ Configs: {
 			Label: Too many monsters don't to sleep
 			Tooltip: When enabled, You won't be able to sleep if there are too many monsters wandering nearby
 		}
+
+		NoRegen: {
+			Tooltip:
+				'''
+				When enabled, disables the player's natural life regeneration.
+				You can only restore health via potions and accessories.
+				'''
+			Label: Disable Natural Life Regeneration
+		}
 	}
 
 	TileConfigs: {

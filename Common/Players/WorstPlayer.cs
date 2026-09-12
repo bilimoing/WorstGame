@@ -298,6 +298,12 @@ public class WorstPlayer : ModPlayer
             Player.statManaMax2 /= 2;
             Player.statLifeMax2 /= 2;
         }
+        // 禁止生命再生
+        if (PlayerConfigs.Instance.NoRegen)
+        {
+            Player.lifeRegen = 0;
+            Player.lifeRegenTime = 0;
+        }
     }
 
     /// <summary>

@@ -6,6 +6,7 @@ namespace WorstGame.Common.Configs;
 public class PlayerConfigs : ModConfig
 {
     public override ConfigScope Mode => ConfigScope.ServerSide;
+
     public static PlayerConfigs Instance;
 
     [DefaultValue(false)] 
@@ -36,5 +37,6 @@ public class PlayerConfigs : ModConfig
     public bool ToManyMinionDontSleep;
     [DefaultValue(false)]
     public bool ToManyMonstersDontSleep;
-    
+    [DefaultValue(false)]
+    public bool NoRegen;
 }

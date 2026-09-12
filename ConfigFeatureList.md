@@ -33,6 +33,7 @@
 - **MorePeopleDontSleep（附近人太多无法睡觉）**：开启后，附近玩家、城镇 NPC 太多将无法睡觉
 - **ToManyMinionDontSleep（太多召唤物无法睡觉）**：开启后，附近自身召唤物太多将无法睡觉
 - **ToManyMonstersDontSleep（太多怪物无法睡觉）**：开启后，附近有太多敌对怪物将无法睡觉
+**NoRegen（禁止生命自然回复）**：开启后，关闭玩家原生生命再生，只能依靠药水、饰品回血
 
 ## TileConfigs 物块配置
 
