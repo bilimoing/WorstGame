@@ -121,7 +121,7 @@ public class WorstSystem : ModSystem
         WorstPlayer worstPlayer = self.GetModPlayer<WorstPlayer>();
         Item item = self.QuickHeal_GetItemToUse();
 
-        if (IsPotionBuffItem(item) /*&& Main.rand.NextFloat() < 0.5f*/)
+        if (IsPotionBuffItem(item) && Main.rand.NextFloat() < 0.5f)
         {
             worstPlayer.FailedPotionBuff = item.buffType;
         }
