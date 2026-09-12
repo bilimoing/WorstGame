@@ -5,7 +5,7 @@
 
 [English](README-en.md) | 简体中文
 
-[更新日志](ChangeLog.md)\
+[更新日志](ChangeLog.md)
 
 </div>
 
