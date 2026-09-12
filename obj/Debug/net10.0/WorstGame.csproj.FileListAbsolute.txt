@@ -1,0 +1,13 @@
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\bin\Debug\net10.0\WorstGame.deps.json
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\bin\Debug\net10.0\WorstGame.dll
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\bin\Debug\net10.0\WorstGame.pdb
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\WorstGame.csproj.AssemblyReference.cache
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\WorstGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\WorstGame.AssemblyInfoInputs.cache
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\WorstGame.AssemblyInfo.cs
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\WorstGame.csproj.CoreCompileInputs.cache
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\WorstGame.sourcelink.json
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\WorstGame.dll
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\refint\WorstGame.dll
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\WorstGame.pdb
+D:\Documents\My Games\Terraria\tModLoader\ModSources\WorstGame\obj\Debug\net10.0\ref\WorstGame.dll

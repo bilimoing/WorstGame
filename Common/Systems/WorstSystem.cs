@@ -19,6 +19,7 @@ using Terraria.ModLoader.IO;
 using Terraria.WorldBuilding;
 using WorstGame.Common.Configs;
 using WorstGame.Common.Helpers;
+using WorstGame.Common.Players;
 
 namespace WorstGame.Common.Systems;
 
@@ -45,6 +46,8 @@ public class WorstSystem : ModSystem
         IL_Main.DrawInventory += ModifyDrawInventory;
         IL_WorldGen.SpawnStormLightning += ModifySpawnStormLightning;
 
+        On_Player.AddBuff += PlayerOnAddBuff;
+        On_Player.QuickHeal += PlayerOnQuickHeal;
         On_Player.IsAmmoFreeThisShot += PlayerOnIsAmmoFreeThisShot;
         On_Player.CheckIceBreak += On_PlayerOnCheckIceBreak;
 
@@ -108,6 +111,49 @@ public class WorstSystem : ModSystem
                 }
             }
         }
+    }
+
+    /// <summary>
+    /// 包裹快速治疗流程。QuickHeal 会直接调用 AddBuff，因此在原版流程前记录药水上下文。
+    /// </summary>
+    private static void PlayerOnQuickHeal(On_Player.orig_QuickHeal orig, Player self)
+    {
+        WorstPlayer worstPlayer = self.GetModPlayer<WorstPlayer>();
+        Item item = self.QuickHeal_GetItemToUse();
+
+        if (IsPotionBuffItem(item) /*&& Main.rand.NextFloat() < 0.5f*/)
+        {
+            worstPlayer.FailedPotionBuff = item.buffType;
+        }
+
+        try
+        {
+            orig(self);
+        }
+        finally
+        {
+            worstPlayer.FailedPotionBuff = -1;
+        }
+    }
+
+    /// <summary>
+    /// 拦截失败药水的 Buff。只拦截 QuickHeal 设置的本次失败上下文，其他来源的同名 Buff 不受影响。
+    /// </summary>
+    private static void PlayerOnAddBuff(On_Player.orig_AddBuff orig, Player self, int type, int time, bool fromNetPvP = false)
+    {
+        WorstPlayer worstPlayer = self.GetModPlayer<WorstPlayer>();
+        if (ItemConfigs.Instance.PotionFail && worstPlayer.FailedPotionBuff == type)
+        {
+            worstPlayer.FailedPotionBuff = -1;
+            return;
+        }
+
+        orig(self, type, time, fromNetPvP);
+    }
+
+    private static bool IsPotionBuffItem(Item item)
+    {
+        return ItemConfigs.Instance.PotionFail && item is { IsAir: false, consumable: true, potion: true, buffType: > 0 };
     }
 
     /// <summary>
@@ -491,6 +537,8 @@ public class WorstSystem : ModSystem
         IL_Main.DrawInventory -= ModifyDrawInventory;
         IL_WorldGen.SpawnStormLightning -= ModifySpawnStormLightning;
 
+        On_Player.AddBuff -= PlayerOnAddBuff;
+        On_Player.QuickHeal -= PlayerOnQuickHeal;
         On_Player.IsAmmoFreeThisShot -= PlayerOnIsAmmoFreeThisShot;
         On_Player.CheckIceBreak -= On_PlayerOnCheckIceBreak;
 

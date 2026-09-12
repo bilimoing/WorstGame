@@ -76,6 +76,11 @@ Configs: {
 			Label: 弹药无节省
 			Tooltip: 开启后，所有弹药节省效果失效，必定消耗弹药
 		}
+
+		PotionFail: {
+			Label: 药水概率失效（暂时无效）
+			Tooltip: 开启后，喝药水有50%概率消耗药水但不产生效果
+		}
 	}
 
 	PlayerConfigs: {

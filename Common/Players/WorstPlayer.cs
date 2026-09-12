@@ -37,12 +37,23 @@ public class WorstPlayer : ModPlayer
     public bool usedRecallItem;
 
     /// <summary>
+    /// 本次失败药水使用对应的Buff ID，供Player.AddBuff钩子拦截
+    /// </summary>
+    public int FailedPotionBuff = -1;
+
+    /// <summary>
     /// 物品使用前置钩子，检测是否使用回传道具
     /// </summary>
     /// <param name="item">尝试使用的物品</param>
     /// <returns>base走原版使用判定</returns>
     public override bool CanUseItem(Item item)
     {
+        bool canUse = base.CanUseItem(item);
+        if (!canUse)
+        {
+            return false;
+        }
+
         if (ProjectileConfigs.Instance.MinionsDisappear)
         {
             // 如果是回传类物品，标记标志位，后续PostUpdate清除召唤物
@@ -51,7 +62,8 @@ public class WorstPlayer : ModPlayer
                 usedRecallItem = true;
             }
         }
-        return base.CanUseItem(item);
+
+        return true;
     }
 
     /// <summary>

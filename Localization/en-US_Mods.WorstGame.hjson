@@ -76,6 +76,11 @@ Configs: {
 			Label: No Ammo Saving
 			Tooltip: When enabled, All ammo conservation effects are disabled
 		}
+
+		PotionFail: {
+			Label: Potion Failure Chance (Temporarily invalid)
+			Tooltip: When enabled, potions have a 50% chance to be consumed without producing an effect
+		}
 	}
 
 	PlayerConfigs: {

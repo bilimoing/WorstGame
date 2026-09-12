@@ -47,4 +47,6 @@ public class ItemConfigs : ModConfig
     [DefaultValue(false)]
     [ReloadRequired]
     public bool AlwaysConsumeAmmo;
+    [DefaultValue(false)]
+    public bool PotionFail;
 }
