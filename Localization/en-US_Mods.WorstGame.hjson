@@ -1,3 +1,353 @@
-# This file will automatically update with entries for new content after a build and reload.
-# Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
+Configs: {
+	ItemConfigs: {
+		DisplayName: Item Configs
 
+		AutoReuse: {
+			Label: Disable Auto Reuse
+			Tooltip: When enabled, items will not auto reuse
+		}
+
+		MaxStack: {
+			Label: Remove Maximum Overlay
+			Tooltip: When enabled, maximum Overlay is set to 1
+		}
+
+		DamageDefault: {
+			Label: Default Damage
+			Tooltip: When enabled, item damage is set to default value
+		}
+
+		DoubleMP: {
+			Label: Double Magic Consumption
+			Tooltip: When enabled, the magic consumption of the item is doubled
+		}
+
+		RandomResearch: {
+			Label: Random Study
+			Tooltip: When enabled, the research cost of the item becomes a random value (1 - 200)
+		}
+
+		FishingPowerHalved: {
+			Label: Fishing Power Halved
+			Tooltip: When enabled, the fishing power of the fishing rod is reduced by half
+		}
+
+		BaitPowerHalved: {
+			Label: Reduce Fishing Lure Force by Half
+			Tooltip: When enabled, the force of the fishing lure is reduced by half.
+		}
+
+		CritChance: {
+			Label: Reduced Critical Hit Rate
+			Tooltip: When enabled, significantly reduced critical hit rate
+		}
+
+		PlatformGrappling: {
+			Label: Hook claws can no longer grip the platform
+			Tooltip: When enabled, hook claws can no longer hold the platform
+		}
+
+		Itemmovement: {
+			Label: Item Movement
+			Tooltip: When enabled, items will move in the player's inventory
+		}
+
+		DynamicPricing: {
+			Label: Dynamic Price
+			Tooltip: When enabled, the prices of items in the store will change dynamically (the price drops by 2% after every 10 sales, and a new sales count is restored every 10 minutes)
+		}
+
+		ChaosTooltip: {
+			Label: Chaos Tooltip
+			Tooltip: When enabled, the tooltips for the items will turn into jumbled text (random movement)
+		}
+
+		SelfHarmOnWeaponUse: {
+			Label: Self Harm On Weapon Use
+			Tooltip: When enabled, using a weapon has a chance to harm the player
+		}
+
+		WorstPrefix: {
+			Label: Worst Prefix
+			Tooltip: When enabled, all items will have the worst prefix
+		}
+
+		AlwaysConsumeAmmo: {
+			Label: No Ammo Saving
+			Tooltip: When enabled, All ammo conservation effects are disabled
+		}
+	}
+
+	PlayerConfigs: {
+		DisplayName: Player Configs
+
+		InventoryRows: {
+			Label: Reduce Inventory Rows
+			Tooltip: When enabled, reduce the number of inventory rows according to the progress
+		}
+
+		Defensehalved: {
+			Label: Defense Halved
+			Tooltip: When enabled, Player defense will be halved
+		}
+
+		HalvesMPHP: {
+			Label: Halves MP/HP
+			Tooltip: When enabled, Player mana and health will be halved
+		}
+
+		InitialHP: {
+			Label: Initial HP
+			Tooltip: When enabled, Player starts with 1 HP
+		}
+
+		Respawntimedoubled: {
+			Label: Respawn Time Doubled
+			Tooltip: When enabled, Player respawn time will be doubled
+		}
+
+		Breathingtime: {
+			Label: Breathing Time
+			Tooltip: When enabled, Player breathing time will be set to 1 second
+		}
+
+		Wingflighttimehalved: {
+			Label: Wing Flight Time Halved
+			Tooltip: When enabled, Player wing flight time will be halved
+		}
+
+		QuestFishDisappeared: {
+			Label: Quest Fish Disappeared
+			Tooltip: When enabled, 50% of quest fish will run away and refresh the fisherman quest
+		}
+
+		SmartCursor: {
+			Label: Right-click Smart Cursor
+			Tooltip: When enabled, Every time you right-click, it may turn into a smart cursor
+		}
+
+		DeadTextDeleted: {
+			Label: Removed Death Respawn countdown
+			Tooltip: When enabled, The player death respawn countdown will be removed
+		}
+
+		HighLightSleep: {
+			Label: Too bright to don't sleep
+			Tooltip: When enabled, It will be impossible to sleep if the brightness nearby is too high
+		}
+
+		MorePeopleDontSleep: {
+			Label: Too many people don't to sleep
+			Tooltip: When enabled, Too many people nearby will not be able to sleep
+		}
+
+		ToManyMinionDontSleep: {
+			Label: Too many minions don't to sleep
+			Tooltip: When enabled, You won't be able to sleep if you have too many minions nearby
+		}
+
+		ToManyMonstersDontSleep: {
+			Label: Too many monsters don't to sleep
+			Tooltip: When enabled, You won't be able to sleep if there are too many monsters wandering nearby
+		}
+	}
+
+	TileConfigs: {
+		DisplayName: Tile Configs
+
+		TileCanDrop: {
+			Label: Block Drop
+			Tooltip: When enabled, there is a probability that the block will not drop any items
+		}
+
+		CampfireBurning: {
+			Label: Campfire Burning
+			Tooltip: When enabled, being close to the campfire will cause you to be ignited and lose health continuously
+		}
+
+		MaxTreeShakes: {
+			Label: Tree Shake Count
+			Tooltip: When enabled, the number of times the tree can be shaken in a day has decreased
+		}
+
+		AutoOpenDoor: {
+			Label: Automatic Door Opening
+			Tooltip: When enabled, remove the automatic door opening function
+		}
+
+		PlatformBreakEasy: {
+			Label: platform is easy to broken
+			Tooltip: When enabled, the platform will look like thin ice
+		}
+	}
+
+	LinkConfigs: {
+		DisplayName: Link Configs
+
+		LinkWarningText: {
+			Tooltip: ""
+			Label: Link Warning Text
+		}
+
+		BigBag: {
+			Tooltip: The large backpack will reduce the space
+			Label: Weaken Large Backpack
+		}
+
+		ImproveGameHeader: {
+			Label: Quality of Terraria
+			Tooltip: ""
+		}
+	}
+
+	NPCConfigs: {
+		DisplayName: NPC Configs
+
+		HideHealthBar: {
+			Label: Hide Health Bar
+			Tooltip: When enabled, Hides the health bar of NPCs
+		}
+
+		NPCNoDrop: {
+			Label: NPC No Drop
+			Tooltip: When enabled, NPCs will not drop items on death(50% chance)
+		}
+
+		NPCDropsMoney: {
+			Label: NPC Drops Money
+			Tooltip: When enabled, NPCs will not drop any money
+		}
+
+		NPCSplit: {
+			Label: NPC Split
+			Tooltip: When enabled, When an NPC is attacked, its half-health will split into an identical NPC
+		}
+
+		NPCShopRandomDeleteItem: {
+			Label: NPC Shop Random Delete Item
+			Tooltip: When enabled, Items in the NPC store will be randomly deleted (with a 50% probability for each item)
+		}
+
+		WallNPCinvincible: {
+			Label: Wall NPC invincible
+			Tooltip: When enabled, The NPC who ignores the tiles is invincible in the wall
+		}
+
+		NPCGore: {
+			Label: NPC Gore
+			Tooltip: When enabled, Gore of NPC won't disappear for a long time
+		}
+
+		RandomizeChatButtons: {
+			Label: Random Chat Button
+			Tooltip: When enabled, chat buttons will be randomly aligned
+		}
+	}
+
+	MapConfigs: {
+		DisplayName: World Configs
+
+		RemoveShimmer: {
+			Label: Remove Shimmer
+			Tooltip: When enabled, Removes the Shimmer biome from the world
+		}
+
+		LingningChange: {
+			Label: Lightning Modification
+			Tooltip:
+				'''
+				When enabled, Generates lightning during rain (no longer exclusive to thunderstorms)
+				Frequency increased by 6 times
+				'''
+		}
+	}
+
+	MultiplayerModeConfigs: {
+		DisplayName: Multiplayer Mode Configs
+
+		DamageMax: {
+			Label: NPC Damage Max
+			Tooltip: When enabled, The damage of NPC will increase depending on the number of players
+		}
+
+		DefenseMax: {
+			Label: NPC Defense Max
+			Tooltip: When enabled, The defense of NPC will increase depending on the number of players
+		}
+
+		LifeMax: {
+			Label: NPC Life Max
+			Tooltip: When enabled, The life of NPC will increase depending on the number of players
+		}
+
+		SpawnRate: {
+			Label: NPC Spawn Rate
+			Tooltip: When enabled, The spawn rate of NPCs will increase depending on the number of players
+		}
+
+		SharedBuff: {
+			Label: Shared Buff
+			Tooltip: When enabled, All players' buffs will be shared (including negative effects)
+		}
+
+		RandomPacketSending: {
+			Label: Random Packet Sending
+			Tooltip: When enabled, Randomizes the sending of packets to players
+		}
+
+		DeathLink: {
+			Label: Death Link
+			Tooltip: When enabled, When one person dies, others will die too
+		}
+
+		ClosePlayerChat: {
+			Label: Disable chat
+			Tooltip: When enabled, Disable chat for all players
+		}
+	}
+
+	ProjectileConfigs: {
+		DisplayName: Projectile Configs
+
+		ProjectileCritChance: {
+			Label: Hostile projectile Crit
+			Tooltip: Hostile projectile will Crit 100%
+		}
+
+		ProjectileInvisibility: {
+			Label: Projectile Invisibility
+			Tooltip: The drawing of projectiles for even numbers and prime numbers ID will be false
+		}
+
+		MinionsDisappear: {
+			Label: Minions Disappear
+			Tooltip: When teleporting home, minions will get lost
+		}
+
+		ProjectileKillItem: {
+			Label: Cactus damage drop
+			Tooltip: Cacti can damage falling objects when they roll
+		}
+	}
+}
+
+NewText: {
+	Fish: Hit!
+	Minion1: There are
+	Minion2: minion lost during teleportation!
+	Sleep: It's too bright nearby to sleep!
+	Sleep1: It's too noisy nearby! There are too many people to sleep!
+	Sleep2: Minions are too noisy! Can't sleep!
+	Sleep3: There are monsters wandering nearby, can't sleep!
+	Sell: Price Drop
+	Twins1: Reviving...
+	Twins2: Retinazer
+	Twins3: Spazmatism
+	Twins4: has been revived!
+}
+
+Prefixes: {
+	Broken.DisplayName: Broken
+	Dreadful.DisplayName: Dreadful
+	Futile.DisplayName: Futile
+}

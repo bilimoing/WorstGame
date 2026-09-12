@@ -2,3 +2,6 @@ displayName = Worst of Terraria
 displayName.zh-Hans = 更差的体验
 author = 末泠
 version = 0.1
+homepage = https://github.com/bilimoing/WorstGame
+buildIgnore = *.gif, *.aseprite
+includeSource = true

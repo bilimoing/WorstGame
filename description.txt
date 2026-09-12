@@ -1,1 +1,15 @@
-Modify this file with a description of your mod.
+These functions will bring you a better gaming experience
+By default, only some functions are enabled. For details, please refer to the module Settings.
+---------------------------
+Function Summary
+For a detailed list, please refer to the module configuration or update log
+1. Items: The maximum stack of items is 1. Disable functions such as automatic swinging and the worst prefix
+2. Player: Functions such as defense, health, magic power halving, and breathing time halving
+3. Map: Remove dim light and other functions
+4. NPC: Functions such as hiding NPC health bars and preventing NPCS from dropping items
+Almost all functions are adjustable. You can choose the ones that suit you by yourself
+---------------------------
+[c/990000: Artist: 末泠]
+[c/9900ff: Translated by 末泠]
+[c/0099ff: Code: 末泠]
+[c/00ff99: Contributor: 末泠]

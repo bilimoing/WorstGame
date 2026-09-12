@@ -1,1 +1,353 @@
+Configs: {
+	ItemConfigs: {
+		DisplayName: 物品配置
 
+		AutoReuse: {
+			Label: 禁用自动挥动
+			Tooltip: 开启后，物品将不能自动挥动
+		}
+
+		MaxStack: {
+			Label: 移除最大叠加
+			Tooltip: 最大叠加变为1
+		}
+
+		DamageDefault: {
+			Label: 默认伤害
+			Tooltip: 开启后，物品伤害变为默认值
+		}
+
+		DoubleMP: {
+			Label: 双倍魔力消耗
+			Tooltip: 开启后，物品魔力消耗变为原来的两倍
+		}
+
+		RandomResearch: {
+			Label: 随机研究
+			Tooltip: 开启后，物品的研究成本变为随机值（1-200）
+		}
+
+		FishingPowerHalved: {
+			Label: 钓鱼力减半
+			Tooltip: 开启后，钓竿的钓鱼力减半
+		}
+
+		BaitPowerHalved: {
+			Label: 饵力减半
+			Tooltip: 开启后，鱼饵的饵力减半
+		}
+
+		CritChance: {
+			Label: 暴击率降低
+			Tooltip: 开启后，暴击率大幅度降低
+		}
+
+		PlatformGrappling: {
+			Label: 钩爪抓不住平台
+			Tooltip: 开启后，钩爪再也不能抓住平台了
+		}
+
+		Itemmovement: {
+			Label: 物品移动
+			Tooltip: 开启后，物品会在玩家背包中移动
+		}
+
+		DynamicPricing: {
+			Label: 动态价格
+			Tooltip: 开启后，商店的物品价格将会动态变化（每10次售卖后价格下降2%，每10分钟恢复一个售卖计数）
+		}
+
+		ChaosTooltip: {
+			Label: 混乱工具提示
+			Tooltip: 开启后，物品的工具提示将变为混乱的文本（乱动）
+		}
+
+		SelfHarmOnWeaponUse: {
+			Label: 使用武器伤害自己
+			Tooltip: 开启后，使用武器时有概率会对自己造成伤害
+		}
+
+		WorstPrefix: {
+			Label: 最差前缀
+			Tooltip: 开启后，所有物品的前缀将变为最差前缀
+		}
+
+		AlwaysConsumeAmmo: {
+			Label: 弹药无节省
+			Tooltip: 开启后，所有弹药节省效果失效，必定消耗弹药
+		}
+	}
+
+	PlayerConfigs: {
+		DisplayName: 玩家配置
+
+		InventoryRows: {
+			Label: 减少背包行数
+			Tooltip: 开启后，根据进度减少背包行数
+		}
+
+		Defensehalved: {
+			Label: 防御减半
+			Tooltip: 开启后，玩家的防御将减半
+		}
+
+		HalvesMPHP: {
+			Label: 魔法生命减半
+			Tooltip: 开启后，玩家的魔法和生命值将减半
+		}
+
+		InitialHP: {
+			Label: 初始生命值
+			Tooltip: 开启后，玩家的初始生命值将变为1
+		}
+
+		Respawntimedoubled: {
+			Label: 重生时间翻倍
+			Tooltip: 开启后，玩家重生时间将翻倍
+		}
+
+		Breathingtime: {
+			Label: 呼吸时间
+			Tooltip: 开启后，玩家的呼吸时间将变为1秒
+		}
+
+		Wingflighttimehalved: {
+			Label: 翅膀飞行时间减半
+			Tooltip: 开启后，玩家翅膀的飞行时间将减半
+		}
+
+		QuestFishDisappeared: {
+			Label: 任务鱼消失
+			Tooltip: 开启后，钓到任务鱼的时候有50%跑掉，并刷新渔夫任务
+		}
+
+		SmartCursor: {
+			Label: 右键智能光标
+			Tooltip: 开启后，每次右键都有可能变为智能光标
+		}
+
+		DeadTextDeleted: {
+			Label: 删除死亡重生倒计时
+			Tooltip: 开启后，玩家死亡重生倒计时将被删除
+		}
+
+		HighLightSleep: {
+			Label: 亮度过高无法睡觉
+			Tooltip: 开启后，附近亮度过高将无法睡觉
+		}
+
+		MorePeopleDontSleep: {
+			Label: 附近人太多无法睡觉
+			Tooltip: 开启后，附近人太多将无法睡觉
+		}
+
+		ToManyMinionDontSleep: {
+			Label: 太多召唤物无法睡觉
+			Tooltip: 开启后，附近召唤物太多将无法睡觉
+		}
+
+		ToManyMonstersDontSleep: {
+			Label: 太多怪物无法睡觉
+			Tooltip: 开启后，附近有太多怪物将无法睡觉
+		}
+	}
+
+	TileConfigs: {
+		DisplayName: 物块配置
+
+		TileCanDrop: {
+			Label: 物块掉落
+			Tooltip: 开启后，物块有概率不掉落物品
+		}
+
+		CampfireBurning: {
+			Label: 篝火燃烧
+			Tooltip: 开启后，靠近篝火会被点燃，持续掉血
+		}
+
+		MaxTreeShakes: {
+			Label: 树摇动次数
+			Tooltip: 开启后，一天内树可摇动次数减少
+		}
+
+		AutoOpenDoor: {
+			Label: 自动开门
+			Tooltip: 开启后，删除自动开门功能
+		}
+
+		PlatformBreakEasy: {
+			Label: 平台易破碎
+			Tooltip: 开启后， 平台会和薄冰一样
+		}
+	}
+
+	LinkConfigs: {
+		DisplayName: 联动配置
+
+		LinkWarningText: {
+			Tooltip: ""
+			Label: 联动警告文本
+		}
+
+		BigBag: {
+			Tooltip: 大背包将会被减少空间
+			Label: 削弱大背包
+		}
+
+		ImproveGameHeader: {
+			Label: 更好的体验
+			Tooltip: ""
+		}
+	}
+
+	NPCConfigs: {
+		DisplayName: NPC配置
+
+		HideHealthBar: {
+			Label: 隐藏血条
+			Tooltip: 开启后，NPC的血条将被隐藏
+		}
+
+		NPCNoDrop: {
+			Label: NPC不掉落物品
+			Tooltip: 开启后，NPC有概率不会掉落任何物品（50%）
+		}
+
+		NPCDropsMoney: {
+			Label: NPC不掉落钱
+			Tooltip: 开启后，NPC将不会掉落任何钱
+		}
+
+		NPCSplit: {
+			Label: NPC分裂
+			Tooltip: 开启后，NPC被攻击后半血会分裂出一个同样的NPC
+		}
+
+		NPCShopRandomDeleteItem: {
+			Label: NPC商店物品删除
+			Tooltip: 开启后，NPC商店的物品将会随机删除（每个物品50%的概率）
+		}
+
+		WallNPCinvincible: {
+			Label: 穿墙怪无敌
+			Tooltip: 开启后，无视物块的NPC在墙中无敌
+		}
+
+		NPCGore: {
+			Label: NPC尸块不会消失
+			Tooltip: 开启后，NPC的尸块长时间不会消失
+		}
+
+		RandomizeChatButtons: {
+			Label: 随机聊天按钮
+			Tooltip: 开启后，聊天按钮将会随机排列
+		}
+	}
+
+	MapConfigs: {
+		DisplayName: 世界配置
+
+		RemoveShimmer: {
+			Label: 移除微光
+			Tooltip: 开启后，世界中的微光将被移除
+		}
+
+		LingningChange: {
+			Label: 闪电修改
+			Tooltip:
+				'''
+				开启后，下雨时生成闪电（不再是雷雨专属）
+				频率提升6倍
+				'''
+		}
+	}
+
+	MultiplayerModeConfigs: {
+		DisplayName: 多人配置
+
+		DamageMax: {
+			Label: NPC最大伤害
+			Tooltip: 开启后，根据玩家数量，NPC的伤害将会增加
+		}
+
+		DefenseMax: {
+			Label: NPC最大防御
+			Tooltip: 开启后，根据玩家数量，NPC的防御将会增加
+		}
+
+		LifeMax: {
+			Label: NPC最大生命值
+			Tooltip: 开启后，根据玩家数量，NPC的生命值将会增加
+		}
+
+		SpawnRate: {
+			Label: NPC刷怪率
+			Tooltip: 开启后，根据玩家数量，NPC的刷怪率将会增加
+		}
+
+		SharedBuff: {
+			Label: 共享Buff
+			Tooltip: 开启后，所有玩家的Buff将会共享（包括负面效果）
+		}
+
+		RandomPacketSending: {
+			Label: 随机发送数据包
+			Tooltip: 开启后，所有玩家的网络数据包将会随机发送
+		}
+
+		DeathLink: {
+			Label: 死亡连锁
+			Tooltip: 开启后，一个人死了，其他人也会死
+		}
+
+		ClosePlayerChat: {
+			Label: 禁用聊天
+			Tooltip: 开启后，禁止所有玩家使用聊天
+		}
+	}
+
+	ProjectileConfigs: {
+		DisplayName: 弹幕配置
+
+		ProjectileCritChance: {
+			Label: 敌对弹幕暴击
+			Tooltip: 敌对弹幕将会百分百暴击
+		}
+
+		ProjectileInvisibility: {
+			Label: 特殊弹幕隐藏
+			Tooltip: 偶数和质数ID的弹幕的绘制会false
+		}
+
+		MinionsDisappear: {
+			Label: 召唤物消失
+			Tooltip: 在传送回家的时候召唤物会走丢
+		}
+
+		ProjectileKillItem: {
+			Label: 仙人球破坏掉落物
+			Tooltip: 仙人球在滚动的时候会破坏掉落物
+		}
+	}
+}
+
+NewText: {
+	Fish: 上钩了！
+	Minion1: 有
+	Minion2: 个召唤物在传送中走丢了!
+	Sleep: 附近太亮了，无法睡觉！
+	Sleep1: 附近太吵了！人太多了睡不着！
+	Sleep2: 召唤物太吵了！睡不着觉！
+	Sleep3: 附近有怪物在游荡，无法睡觉！
+	Sell: 价格下降
+	Twins1: 正在复活...
+	Twins2: 激光眼
+	Twins3: 魔焰眼
+	Twins4: 已复活！
+}
+
+Prefixes: {
+	Broken.DisplayName: 损坏
+	Dreadful.DisplayName: 糟糕
+	Futile.DisplayName: 无用
+}
